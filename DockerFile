@@ -1,4 +1,4 @@
-FROM jlesage/baseimage-gui:debian-9
+FROM jlesage/baseimage-gui:debian-9 
 
 RUN apt-get update && apt-get install -y \
   freeglut3 \
